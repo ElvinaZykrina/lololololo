@@ -1,0 +1,361 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+body {
+	font: 15px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: url("https://sun9-53.userapi.com/impf/IdzgJqZ-pHnuCBZBcH1NBFTNmTF0Dnj_uLLrpA/LeWHvvhI-Bg.jpg?size=400x400&quality=96&proxy=1&sign=e1600cd8f0ab262643b076bff039113b&type=album") ;
+}
+header {
+	width: 100%;
+	margin: 0;
+	padding: 5px;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+    background-color: black;
+    height: 70px;
+    margin-bottom: 30px;
+}
+p {
+    padding: 0;
+    margin-top: 6px;
+    font-size: 16px;
+}
+.logo {
+	font-family: "Courier New", Courier, monospace;
+	margin: 0;
+	padding: 0;
+    margin-left: 55px ;
+    display: block;
+}
+h1 {
+	font-size: 30px;
+	margin: 0;
+    font-weight: lighter;
+    margin-left: 55px;
+}
+h2 {
+	font-size: 18px;
+	margin: 0;
+    font-weight: lighter;
+    margin-left: 55px;
+}
+.info h2 {
+	margin: 0;
+	font-weight: bold;
+}
+.aboutUs {
+    position: relative;
+    top: -50px;
+    color:  white;
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+	vertical-align: middle;
+    padding-right: 27px;
+}
+.aboutUs a {
+    margin-left: 20px;
+    color: white;
+}
+.aboutUs a:hover {
+    color: #9e6c20;
+    transition-duration: 0.5s;
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+.diamond img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+img {
+	width: 500px;
+	height: 500px;
+}
+main {
+	display: flex;
+	justify-content: center;
+}
+.product {
+	width: 40%;
+}
+.info {
+	width: 25%;
+	display: inline-block;
+	margin-bottom: 300px;
+}
+button {
+	margin: 7px;
+	text-align: center;
+	width: 175px;
+	height: 40px;
+	background-color: black;
+    color: #5f6a7d;
+    border: 1px solid #5f6a7d;
+}
+select, input, lable, h4 {
+	margin: 7px;
+	padding: 7px;
+}
+select {
+	width: 90px;
+}
+
+button:hover{
+	color: white;
+    border: 1px solid white;
+    transition-duration: 0.4s;
+}
+footer {
+	background-color: black;
+	color: white;
+}
+.footer-registration {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	color: black;
+	margin-bottom: 30px;
+	font: 20px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.first-last, .row {
+	display: inline-block;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: white;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+}
+footer h6, h5 {
+	color: white;
+}
+.first-name .last-name {
+   display: inline;
+}
+.first-last h4  {
+	margin: 0;
+}
+.first-last h3 {
+ 	margin: 5px 0 20px 0;
+ }
+textarea {
+	margin: 0;
+	padding: 0;
+}
+footer input {
+	display: block;
+    height: auto;
+    padding: 12px 20px;
+    margin: 5px 120px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    background: white;
+    color: #5f6a7d;
+    font: 13px ;
+    margin-bottom: 15px;
+}
+.back {
+	width: 270px; 
+	text-align: right;
+}
+.sign_up {
+	background-color: black;
+	color: #5f6a7d;
+	border: 1px solid #5f6a7d;
+	display: inline;
+	margin: 0;
+	padding: 12px 20px;
+}
+.sign_up:hover {
+	color: white;
+	border: 1px solid white;
+}
+.footer-social {
+    text-align: center;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.footer-text {
+	display: flex;
+	justify-content: center;
+    line-height: 30px;
+}
+
+.footer_social {
+   	margin: 30px;
+}
+.footer-social  img {
+	width: 24px;
+	height: 24px;
+}
+.footer_social_item:hover {
+	opacity: 0.4;
+	transition-duration: 0.5s;
+}
+/*модальное окно*/
+
+.modal {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); 
+    z-index: 1050;
+    opacity: 0; 
+    pointer-events: none;
+    margin: 0;
+    padding: 0;
+}
+
+.modal:target {
+    opacity: 1; 
+	pointer-events: auto; 
+    overflow-y: auto; 
+     -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 30px auto; 
+  }
+}
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}
+table {
+	margin-bottom: 30px;
+}
+table, td {
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+}
+td {
+	text-align: center;
+	padding: 5px;
+}
+.modal-body  h3 {
+	 font-weight: 500;
+}
+a {
+	text-decoration: none;
+	color: black;
+	margin: 7px;
+	font-size: 15px;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: black;
+	margin: 7px;
+	font-size: 15px;
+	font-weight: bold;
+}
+a:hover {
+	opacity: 0.5;
+}
+footer a {
+	text-decoration: none;
+	color: white;
+	margin: 7px;
+	font-size: 15px;
+	font-weight: bold;
+}
+footer a:hover {
+	opacity: 0.5;
+}
+.backToCatalog img{
+    width: 60px;
+    height: 80px;
+}
+.backToCatalog img:hover {
+    opacity: 0.5;
+}

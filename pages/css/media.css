@@ -1,0 +1,214 @@
+html, body {
+	margin:0;
+	padding:0;
+}
+body {
+	font: 15px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image: url("https://sun9-53.userapi.com/impf/IdzgJqZ-pHnuCBZBcH1NBFTNmTF0Dnj_uLLrpA/LeWHvvhI-Bg.jpg?size=400x400&quality=96&proxy=1&sign=e1600cd8f0ab262643b076bff039113b&type=album") ;
+}
+header {
+	width: 100%;
+	margin: 0;
+	padding: 5px;
+	font-family: "Courier New", Courier, monospace;
+	color: white;
+    background-color: black;
+    height: 70px;
+    margin-bottom: 30px;
+}
+.logo {
+	font-family: "Courier New", Courier, monospace;
+	margin: 0;
+	padding: 0;
+    margin-left: 55px ;
+    display: block;
+}
+h1 {
+	font-size: 30px;
+	margin: 0;
+    font-weight: lighter;
+    margin-left: 55px;
+}
+h2 {
+	font-size: 18px;
+	margin: 0;
+    font-weight: lighter;
+    margin-left: 55px;
+}
+.info h2 {
+	margin: 0;
+	font-weight: bold;
+}
+.aboutUs {
+    position: relative;
+    top: -50px;
+    color:  white;
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+	vertical-align: middle;
+    padding-right: 25px;
+}
+.aboutUs a {
+    margin-left: 20px;
+    color: white;
+}
+.aboutUs a:hover {
+    color: #9e6c20;
+    transition-duration: 0.5s;
+	-webkit-transform: scale(1.2);
+  	-ms-transform: scale(1.2);
+  	transform: scale(1.2);
+}
+.diamond img {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+img {
+	width: 500px;
+	height: 500px;
+}
+main {
+	display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.product {
+	width: 40%;
+}
+.info {
+	width: 25%;
+}
+button {
+	margin: 7px;
+	text-align: center;
+	width: 175px;
+	height: 40px;
+	background-color: black;
+    color: #5f6a7d;
+    border: 1px solid #5f6a7d;
+}
+select, input, lable, h4 {
+	margin: 7px;
+	padding: 7px;
+}
+select {
+	width: 90px;
+}
+
+button:hover{
+	color: white;
+    border: 1px solid white;
+    transition-duration: 0.4s;
+}
+footer {
+	background-color: black;
+	color: white;
+}
+.footer-registration {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	color: black;
+	margin-bottom: 30px;
+	font: 20px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.first-last, .row {
+	display: inline-block;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: white;
+	margin: 20px 0 20px 0;
+	padding: 20px;
+}
+footer h6, h5 {
+	color: white;
+}
+.first-name .last-name {
+   display: inline;
+}
+.first-last h4  {
+	margin: 0;
+}
+.first-last h3 {
+ 	margin: 5px 0 20px 0;
+ }
+textarea {
+	margin: 0;
+	padding: 0;
+}
+footer input {
+	display: block;
+    height: auto;
+    padding: 12px 20px;
+    margin: 5px 120px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    background: white;
+    color: #5f6a7d;
+    font: 13px ;
+    margin-bottom: 15px;
+}
+.back {
+	width: 270px; 
+	text-align: right;
+}
+.sign_up {
+	background-color: black;
+	color: #5f6a7d;
+	border: 1px solid #5f6a7d;
+	display: inline;
+	margin: 0;
+	padding: 12px 20px;
+}
+.sign_up:hover {
+	color: white;
+	border: 1px solid white;
+}
+.footer-social {
+    text-align: center;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.footer-text {
+	display: flex;
+	justify-content: center;
+    line-height: 30px;
+}
+
+.footer_social {
+   	margin: 30px;
+}
+.footer-social  img {
+	width: 24px;
+	height: 24px;
+}
+.footer_social_item:hover {
+	opacity: 0.4;
+	transition-duration: 0.5s;
+}
+a {
+	text-decoration: none;
+	color: white;
+	margin: 7px;
+	font-size: 15px;
+	font-weight: bold;
+}
+a:hover {
+	opacity: 0.5;
+}
+.text_info li {
+    margin: 5px;
+    font-style: italic;
+}
+.text_info h3 {
+    margin-left: 27px;
+}
+.backToCatalog img{
+    width: 60px;
+    height: 80px;
+}
+.backToCatalog img:hover {
+    opacity: 0.5;
+}
